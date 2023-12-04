@@ -1,22 +1,23 @@
 import React from "react";
 import jsonData from "../datas/Navbar.json";
+import "./Navbar.css";
 
 const Navbar = () => {
   const items = jsonData["items"];
 
   return (
-    <div className="div">
+    <div className="Navbar">
       {items.map((item) => (
-        <ul className="div-2" key={item["id"]}>
-          <li>
-            <span className="text-wrapper">{item["name"]}</span>
+        <div className="Navbox" key={item["id"]}>
+          <button className="Nav-btn">
             <img
               className="shopping-cart"
               alt="Shopping cart"
               src="https://c.animaapp.com/5RsD9vNN/img/shopping---cart-1.svg"
             />{" "}
-          </li>
-        </ul>
+            <span className="NavItems">{item["name"]}</span>
+          </button>
+        </div>
       ))}
     </div>
   );
