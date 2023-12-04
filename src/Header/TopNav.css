@@ -1,0 +1,193 @@
+.TopNav {
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 0 5rem;
+  background-color: var(--primary-4);
+  overflow: hidden;
+  border-bottom: 1px solid #f4f7fb;
+}
+
+.TopNav .div-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.TopNav .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 17px;
+  justify-content: center;
+  position: relative;
+}
+
+.TopNav .div-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.TopNav .text-wrapper {
+  color: var(--primary-2);
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: var(--14-regular-font-style);
+  font-weight: var(--14-regular-font-weight);
+  letter-spacing: var(--14-regular-letter-spacing);
+  line-height: var(--14-regular-line-height);
+  position: relative;
+  text-align: right;
+  width: fit-content;
+}
+
+.TopNav .picture-instance {
+  position: relative !important;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary-9);
+  border-radius: 50%;
+}
+
+.TopNav .basket-instance {
+  flex: 0 0 auto !important;
+}
+
+.TopNav .div-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.TopNav .div-5 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 50px;
+  justify-content: center;
+  position: relative;
+}
+
+.TopNav .text-wrapper-2 {
+  color: var(--primary-2);
+  direction: rtl;
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: var(--14-regular-font-style);
+  font-weight: var(--14-regular-font-weight);
+  letter-spacing: var(--14-regular-letter-spacing);
+  line-height: var(--14-regular-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.TopNav .div-6 {
+  align-items: center;
+  border-radius: 6px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 4px 8px;
+  position: relative;
+}
+
+.TopNav .text-wrapper-3 {
+  color: var(--primary-2);
+  direction: rtl;
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: var(--14-regular-font-style);
+  font-weight: var(--14-regular-font-weight);
+  letter-spacing: var(--14-regular-letter-spacing);
+  line-height: var(--14-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.TopNav .text-wrapper-4 {
+  color: var(--primary-1);
+  direction: rtl;
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: var(--14-regular-font-style);
+  font-weight: var(--14-regular-font-weight);
+  letter-spacing: var(--14-regular-letter-spacing);
+  line-height: var(--14-regular-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.TopNav .frame-wrapper-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.TopNav .button-wrapper {
+  align-items: flex-start;
+  background-color: var(--primary-4);
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.TopNav .button {
+  all: unset;
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--primary-1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  height: 40px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 6px 16px;
+  position: relative;
+}
+
+.TopNav .div-7 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  justify-content: center;
+  position: relative;
+}
+
+.TopNav .text-wrapper-5 {
+  color: var(--primary-1);
+  direction: rtl;
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: var(--14-regular-font-style);
+  font-weight: var(--14-regular-font-weight);
+  letter-spacing: var(--14-regular-letter-spacing);
+  line-height: var(--14-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}

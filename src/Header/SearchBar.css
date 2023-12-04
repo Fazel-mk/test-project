@@ -1,0 +1,50 @@
+.search-bar {
+  display: flex;
+  background-color: white;
+  border-radius: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #f4f7fb;
+}
+.search-bar > input {
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: var(--14-regular-font-style);
+  letter-spacing: var(--14-regular-letter-spacing);
+  line-height: var(--14-regular-line-height);
+  width: 56vw;
+  direction: rtl;
+  border: 0.5px solid var(--primary-9);
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding-right: 0.5rem;
+}
+.button {
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: var(--14-regular-font-style);
+  letter-spacing: var(--14-regular-letter-spacing);
+  line-height: var(--14-regular-line-height);
+  display: flex;
+  height: 48px;
+  padding: 6px var(--M, 16px);
+  color: var(--primary-4);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+  outline: none;
+  background-color: var(--primary-1);
+  border: 0.5px solid var(--primary-9);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.logo {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 41px;
+  height: 43px;
+  padding-left: 1.5rem;
+  flex-direction: column;
+}
