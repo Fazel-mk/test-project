@@ -1,0 +1,14 @@
+/* CSS for the container wrapping the image */
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 2.5rem 0;
+}
+
+/* CSS for the banner image */
+.banner {
+  /* Add any specific styles for the image here */
+  max-width: 100%; /* Optionally limit the image width */
+  max-height: 100%; /* Optionally limit the image height */
+}

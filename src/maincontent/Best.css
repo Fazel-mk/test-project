@@ -1,0 +1,108 @@
+.best {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid var(--primRY-8, #f4f7fb);
+  background: var(--primary-4, #fff);
+  direction: rtl;
+  margin: 2.5rem 0;
+}
+.titlebox {
+  display: flex;
+  width: 200px;
+  padding: var(--M, 16px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 0px 16px 16px 0px;
+  background: var(--primary-1, #790000);
+}
+
+.O-title {
+  text-align: center;
+  /* 20/bold */
+  font-family: var(--20-bold-font-family);
+  font-size: var(--20-bold-font-size);
+  font-weight: 700;
+}
+.besttext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--M, 16px);
+  align-self: stretch;
+  font-size: var(--16-regular-font-size);
+  font-family: var(--16-regular-font-family);
+  font-weight: 700;
+  color: #ffffff;
+}
+.cards {
+  display: flex;
+  align-items: flex-start;
+}
+.proudact-card {
+  position: relative;
+  display: flex;
+  width: 201px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--M, 16px);
+  border-left: 1px solid #f4f7fb;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.overlap-group {
+  width: 201px;
+  height: 203px;
+}
+.div-3 {
+  display: flex;
+  padding: var(--M, 16px);
+  align-items: flex-start;
+  border-radius: 16px;
+  background: var(--primary-4, #fff);
+}
+
+.element {
+  width: 169px;
+  height: 171px;
+  flex-shrink: 0;
+  background: lightgray 50% / cover no-repeat;
+}
+.wrapper {
+  display: block;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.best-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 1rem;
+}
+
+.wrapper-2 {
+  font-weight: 400;
+}
+
+.wrapper-3,
+.wrapper-2 {
+  color: var(--primary-2, #354752);
+
+  /* 14/bold */
+  font-family: var(--14-regular-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
