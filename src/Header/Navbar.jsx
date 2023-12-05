@@ -7,18 +7,20 @@ const Navbar = () => {
 
   return (
     <div className="Navbar">
-      {items.map((item) => (
-        <div className="Navbox" key={item["id"]}>
-          <button className="Nav-btn">
-            <img
-              className="shopping-cart"
-              alt="Shopping cart"
-              src="https://c.animaapp.com/5RsD9vNN/img/shopping---cart-1.svg"
-            />{" "}
-            <span className="NavItems">{item["name"]}</span>
-          </button>
-        </div>
-      ))}
+      <div className="U-Navbox">
+        {items.map((item) => (
+          <div className="Navbox" key={item["id"]}>
+            <button className="Nav-btn">
+              <img
+                className="shopping-cart"
+                alt="Shopping cart"
+                src="https://c.animaapp.com/5RsD9vNN/img/shopping---cart-1.svg"
+              />
+              <span className="NavItems">{item["name"]}</span>
+            </button>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
