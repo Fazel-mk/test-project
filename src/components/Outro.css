@@ -1,0 +1,72 @@
+.Outro {
+  display: grid;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 1rem;
+  background: #f4f7fb;
+  grid-template-columns: repeat(2, 2fr);
+  direction: rtl;
+}
+.Outro-cardContent {
+  direction: rtl;
+
+  display: flex;
+  padding: 1rem 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 1rem;
+  background: var(--primary-4, #fff);
+}
+.Outro-cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--M, 1rem);
+  align-self: stretch;
+}
+.Outrotitle {
+  color: var(--primary-2, #354752);
+  text-align: right;
+  font-family: var(--16-regular-font-family);
+  font-size: var(--16-regular-font-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.OutroCardDetails {
+  color: var(--primary-2, #354752);
+  text-align: right;
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.trophies {
+  direction: ltr;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--M, 1rem);
+}
+.trophy1,
+.trophy2,
+.trophy3,
+.trophy4 {
+  width: 145.299px;
+  height: 200px;
+  flex-shrink: 0;
+}
+.trophy1 {
+  border-radius: 1rem 0px 0px 1rem;
+  background: lightgray 50% / cover no-repeat;
+}
+.trophy4 {
+  border-radius: 0px 16px 16px 0px;
+  background: lightgray 50% / cover no-repeat;
+}
