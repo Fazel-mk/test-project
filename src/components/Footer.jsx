@@ -50,7 +50,12 @@ const Footer = () => {
             <div className="footerTitrs">
               ما را در شبکه های اجتماعی دنبال کنید
             </div>
-            <div className="Social-i"></div>
+            <div className="Social-i">
+              <img src="./Brands/instagram.svg" alt="" />
+              <img src="./Brands/telegram.svg" alt="" />
+              <img src="./Brands/twitter.svg" alt="" />
+              <img src="./Brands/aparat.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>

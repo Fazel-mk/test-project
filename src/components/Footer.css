@@ -56,3 +56,8 @@
   line-height: normal;
   text-decoration: none;
 }
+.Social-i {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
