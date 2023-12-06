@@ -8,18 +8,20 @@ const Articles = () => {
   return (
     <div className="Articles">
       <div className="articleTitle">
-        <span className="title">آخرین مقالات</span>
+        <span>آخرین مقالات</span>
       </div>
 
       <div className="articleCards">
         {items.map((item) => (
-          <div className={item.id} key={item["id"]}>
-            <div className="cardText">
-              <div className="title">{item.name}</div>
-              <p className="cardDetails">{item.text}</p>
-            </div>
-            <div className="cardPic">
-              <img src="./image2.png" alt="" />
+          <div className={"card" + item.id} key={item.id}>
+            <div className="cardContent">
+              <div className="cardText">
+                <div className="title">{item.name}</div>
+                <p className="cardDetails">{item.text}</p>
+              </div>
+              <div className="cardPic">
+                <img src="./image2.png" alt="" />
+              </div>
             </div>
           </div>
         ))}
