@@ -26,6 +26,9 @@
   font-family: var(--14-regular-font-family);
   font-size: 1rem; /* Adjust font size as needed for responsiveness */
   text-align: center; /* Ensuring text is centered */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 @media screen and (min-width: 1200px) {
   .U-Navbox {
