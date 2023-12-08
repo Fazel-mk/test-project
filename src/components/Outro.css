@@ -97,6 +97,7 @@
 }
 @media screen and (max-width: 800px) {
   .Outro {
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;

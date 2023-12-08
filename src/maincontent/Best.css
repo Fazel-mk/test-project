@@ -107,3 +107,10 @@
   font-weight: 700;
   line-height: normal;
 }
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 900px) {
+  .best {
+    width: 90%;
+  }
+}

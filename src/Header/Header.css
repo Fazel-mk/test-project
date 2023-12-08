@@ -56,3 +56,13 @@ header {
   justify-content: space-between; /* Adjust alignment as needed */
   width: 78vw;
 }
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 900px) {
+  .header-group,
+  .header-content {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+}

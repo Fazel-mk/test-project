@@ -89,6 +89,9 @@
 @media screen and (max-width: 1200px) {
 }
 @media screen and (max-width: 900px) {
+  .Articles {
+    width: 90%;
+  }
   .articleCards {
     display: flex;
     flex-wrap: wrap;
