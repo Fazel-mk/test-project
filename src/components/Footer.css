@@ -26,12 +26,16 @@
 }
 .col1,
 .col2,
-.col3,
-.col4 {
+.col3 {
   flex: 1 1 calc(25% - 1rem); /* Adjust the width of each column */
   padding: 0 0.5rem;
 }
-
+.col4 .footerTitrs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 32px;
+}
 .footerTitrs {
   color: var(--primary-2, #354752);
   text-align: right;
@@ -58,6 +62,7 @@
 }
 .Social-i {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 32px;
 }
