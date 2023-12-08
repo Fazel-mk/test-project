@@ -63,17 +63,17 @@
   gap: 2.22%;
 }
 .footerCustomerClub {
-  display: block;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 2.5rem; /* Adjust the gap as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 0; /* Adjust the gap as needed */
   background: var(--primary-13, #fffbfb);
 }
 .customerclub {
   display: flex;
-  flex-direction: row;
+  width: 78vw;
   align-items: end;
-  gap: 2.5rem;
+  gap: 40px;
 }
 .title-cc {
   color: var(--primary-2, #354752);
