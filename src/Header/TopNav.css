@@ -190,3 +190,10 @@
   text-align: center;
   width: fit-content;
 }
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 900px) {
+  .TopNav {
+    display: none;
+  }
+}

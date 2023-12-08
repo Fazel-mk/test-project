@@ -52,7 +52,7 @@
   line-height: normal;
 }
 .trophies {
-  width: 39.25rem;
+  width: 100%;
   display: flex;
   align-items: flex-end;
   gap: var(--M, 1rem);
@@ -72,4 +72,48 @@
 .trophy1 {
   border-radius: 0px 16px 16px 0px;
   background: lightgray 50% / cover no-repeat;
+}
+@media screen and (max-width: 1200px) {
+  .Outro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--M, 1rem);
+  }
+  .trophies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--M, 1rem);
+  }
+  .trophy1,
+  .trophy2,
+  .trophy3,
+  .trophy4 {
+    width: 17vw;
+    height: 18vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Outro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--M, 1rem);
+    background: var(--primary-4, #fff);
+    margin: 1rem auto;
+  }
+  .trophies {
+    border: none;
+  }
+  .trophy1,
+  .trophy2,
+  .trophy3,
+  .trophy4 {
+    width: 15vw;
+    height: 13vh;
+    background: none;
+  }
 }

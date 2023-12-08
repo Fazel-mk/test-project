@@ -58,9 +58,8 @@
 }
 .Social-i {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 2.22%;
+  gap: 32px;
 }
 .footerCustomerClub {
   display: flex;
@@ -133,4 +132,19 @@
   width: 41px;
   height: 43px;
   bottom: 0;
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 800px) {
+  .col1,
+  .col2,
+  .col3 {
+    display: none;
+  }
+  .col4 {
+    margin: auto;
+  }
+  .footerCustomerClub {
+    display: none;
+  }
 }
