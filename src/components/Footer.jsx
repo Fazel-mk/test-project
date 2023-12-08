@@ -59,7 +59,25 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footerCustomerClub"></div>
+      <div className="footerCustomerClub">
+        <div className="customerclub">
+          <img src="./logo.png" className="logo-cc" alt="" />
+          <div className="content-cc">
+            <div className="input-cc">
+              <div className="title-cc">
+                برای اطلاع از آخرین اخبار و تخفیف‌ها ایمیل خود را ثبت کنید
+              </div>
+              <div className="input-btn">
+                <input
+                  type="email"
+                  placeholder="ایمیل خود را اینجا وارد کنید"
+                />
+                <button className="button btn-cc">ثبت</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
