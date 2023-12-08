@@ -1,5 +1,6 @@
 .Outro {
-  display: grid;
+  display: flex;
+  width: 78vw;
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +10,8 @@
   background: #f4f7fb;
   grid-template-columns: repeat(2, 2fr);
   direction: rtl;
+  margin: 0 auto;
+  gap: 1rem;
 }
 .Outro-cardContent {
   direction: rtl;
@@ -49,7 +52,7 @@
   line-height: normal;
 }
 .trophies {
-  direction: ltr;
+  width: 39.25rem;
   display: flex;
   align-items: flex-end;
   gap: var(--M, 1rem);
@@ -62,11 +65,11 @@
   height: 200px;
   flex-shrink: 0;
 }
-.trophy1 {
+.trophy4 {
   border-radius: 1rem 0px 0px 1rem;
   background: lightgray 50% / cover no-repeat;
 }
-.trophy4 {
+.trophy1 {
   border-radius: 0px 16px 16px 0px;
   background: lightgray 50% / cover no-repeat;
 }

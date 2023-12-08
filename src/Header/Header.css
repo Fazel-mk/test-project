@@ -36,119 +36,23 @@
   --primary-4: rgba(255, 255, 255, 1);
   --primary-9: rgba(137, 140, 141, 1);
 }
-
-.frame {
-  background-color: var(--primary-1);
+header {
   display: flex;
-  height: auto;
-  justify-content: center;
-  padding: 0.5rem;
-  position: relative;
-  align-self: stretch;
-}
-
-.frame .div {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 1%;
-  justify-content: center;
-  margin: 0.5rem 0;
-  position: relative;
-}
-
-.frame .div-2 {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  padding-right: 1.5rem;
-  justify-content: center;
-  position: relative;
-  border-right: 1px solid var(--primary-4);
-}
-
-.frame .div-wrapper {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  position: relative;
-}
-
-.frame .p {
-  color: transparent;
-  direction: rtl;
-  font-family: var(--18-bold-font-family);
-  font-size: var(--18-bold-font-size);
-  font-style: var(--18-bold-font-style);
-  font-weight: var(--18-bold-font-weight);
-  letter-spacing: var(--18-bold-letter-spacing);
-  line-height: var(--18-bold-line-height);
-  position: relative;
-  text-align: left;
-  width: fit-content;
-}
-
-.frame .text-wrapper {
-  color: #ffffff;
-  font-family: var(--18-bold-font-family);
-  font-size: var(--18-bold-font-size);
-  font-style: var(--18-bold-font-style);
-  font-weight: var(--18-bold-font-weight);
-  letter-spacing: var(--18-bold-letter-spacing);
-  line-height: var(--18-bold-line-height);
-}
-
-.frame .span {
-  color: #d7b3b3;
-  font-family: var(--18-bold-font-family);
-  font-size: var(--18-bold-font-size);
-  font-style: var(--18-bold-font-style);
-  font-weight: var(--18-bold-font-weight);
-  letter-spacing: var(--18-bold-letter-spacing);
-  line-height: var(--18-bold-line-height);
-}
-
-.frame .line {
-  height: 0.625rem;
-  margin-right: -1px;
-  object-fit: cover;
-  position: relative;
-  width: 1px;
-}
-
-.frame .flexcontainer {
-  align-items: flex-start;
-  display: inline-flex;
-  flex-direction: column;
-}
-
-.frame .text-i {
-  align-self: stretch;
-  color: var(--primary-4);
-  font-family: "Vazir-Bold", Helvetica;
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
+  padding: 0;
   margin: 0;
+  width: 100%;
+  flex-direction: column;
+  background: var(--primary-4, #fff);
+}
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.frame .text-wrapper-2 {
-  color: #ffffff;
-  font-family: var(--20-bold-font-family);
-  font-size: var(--20-bold-font-size);
-  font-style: var(--20-bold-font-style);
-  font-weight: var(--20-bold-font-weight);
-  letter-spacing: var(--20-bold-letter-spacing);
-  line-height: var(--20-bold-line-height);
-}
-
-.frame .text-wrapper-3 {
-  font-family: var(--12-bold-font-family);
-  font-size: var(--12-bold-font-size);
-  font-style: var(--12-bold-font-style);
-  font-weight: var(--12-bold-font-weight);
-  letter-spacing: var(--12-bold-letter-spacing);
-  line-height: var(--12-bold-line-height);
+.header-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Adjust alignment as needed */
+  width: 78vw;
 }

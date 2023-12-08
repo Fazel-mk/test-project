@@ -1,6 +1,6 @@
 import React from "react";
 import jsonData from "../datas/breakingnews.json";
-import "./Header.css";
+import "./BreakingNews.css";
 const BreakingNews = () => {
   const items = jsonData["items"];
 

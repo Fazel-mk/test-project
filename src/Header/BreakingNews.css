@@ -1,0 +1,117 @@
+.frame {
+  background-color: var(--primary-1);
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  padding: 0.5rem;
+  position: relative;
+  align-self: stretch;
+  overflow: auto;
+  gap: 64px;
+}
+
+.frame .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 1%;
+  justify-content: center;
+  margin: 0.5rem 0;
+  position: relative;
+}
+
+.frame .div-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding-right: 1.5rem;
+  justify-content: center;
+  position: relative;
+  border-right: 1px solid var(--primary-4);
+}
+
+.frame .div-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.frame .p {
+  color: transparent;
+  direction: rtl;
+  font-family: var(--18-bold-font-family);
+  font-size: var(--18-bold-font-size);
+  font-style: var(--18-bold-font-style);
+  font-weight: var(--18-bold-font-weight);
+  letter-spacing: var(--18-bold-letter-spacing);
+  line-height: var(--18-bold-line-height);
+  position: relative;
+  text-align: left;
+  width: fit-content;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: var(--18-bold-font-family);
+  font-size: var(--18-bold-font-size);
+  font-style: var(--18-bold-font-style);
+  font-weight: var(--18-bold-font-weight);
+  letter-spacing: var(--18-bold-letter-spacing);
+  line-height: var(--18-bold-line-height);
+}
+
+.frame .span {
+  color: #d7b3b3;
+  font-family: var(--18-bold-font-family);
+  font-size: var(--18-bold-font-size);
+  font-style: var(--18-bold-font-style);
+  font-weight: var(--18-bold-font-weight);
+  letter-spacing: var(--18-bold-letter-spacing);
+  line-height: var(--18-bold-line-height);
+}
+
+.frame .line {
+  height: 0.625rem;
+  margin-right: -1px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+.frame .flexcontainer {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.frame .text-i {
+  align-self: stretch;
+  color: var(--primary-4);
+  font-family: "Vazir-Bold", Helvetica;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  margin: 0;
+}
+
+.frame .text-wrapper-2 {
+  color: #ffffff;
+  font-family: var(--20-bold-font-family);
+  font-size: var(--20-bold-font-size);
+  font-style: var(--20-bold-font-style);
+  font-weight: var(--20-bold-font-weight);
+  letter-spacing: var(--20-bold-letter-spacing);
+  line-height: var(--20-bold-line-height);
+}
+
+.frame .text-wrapper-3 {
+  font-family: var(--12-bold-font-family);
+  font-size: var(--12-bold-font-size);
+  font-style: var(--12-bold-font-style);
+  font-weight: var(--12-bold-font-weight);
+  letter-spacing: var(--12-bold-letter-spacing);
+  line-height: var(--12-bold-line-height);
+}

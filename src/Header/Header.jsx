@@ -9,9 +9,13 @@ const Header = () => {
   return (
     <header>
       <BreakingNews />
-      <TopNav />
-      <SearchBar />
-      <Navbar />
+      <div className="header-content">
+        <div className="header-group">
+          <TopNav />
+          <SearchBar />
+          <Navbar />
+        </div>
+      </div>
     </header>
   );
 };

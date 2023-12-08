@@ -1,5 +1,6 @@
 .search-bar {
   display: flex;
+  width: 100%;
   background-color: white;
   border-radius: 0.5rem;
   text-align: center;
@@ -13,7 +14,7 @@
   font-style: var(--14-regular-font-style);
   letter-spacing: var(--14-regular-letter-spacing);
   line-height: var(--14-regular-line-height);
-  width: 56vw;
+  width: 100vw;
   direction: rtl;
   border: 0.5px solid var(--primary-9);
   border-radius: 0 0.5rem 0.5rem 0;

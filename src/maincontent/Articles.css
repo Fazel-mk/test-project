@@ -1,5 +1,6 @@
 .Articles {
   display: flex;
+  width: 78vw;
   padding: 1.5rem;
   flex-direction: column;
   justify-content: center;
