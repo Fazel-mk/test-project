@@ -17,7 +17,7 @@
   width: 100vw;
   direction: rtl;
   border: 0.5px solid var(--primary-9);
-  border-radius: 0.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
   padding-right: 0.5rem;
 }
 .button {
@@ -46,7 +46,7 @@
   align-items: center;
   width: 41px;
   height: 43px;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
   flex-direction: column;
 }
 @media screen and (max-width: 1200px) {

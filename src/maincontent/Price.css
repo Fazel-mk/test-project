@@ -1,0 +1,162 @@
+.Price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+}
+.Tables {
+  display: flex;
+  direction: rtl;
+  align-items: flex-start;
+  gap: 24px;
+  display: flex;
+  width: 1128px;
+  height: 497px;
+  justify-content: flex-end;
+  gap: var(--M, 16px);
+}
+.filtering {
+  display: flex;
+  direction: ltr;
+  width: 173px;
+  height: 497px;
+  padding: 1rem 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  border-radius: var(--S, 8px);
+  background: var(--primary-4, #fff);
+}
+.filterHeader {
+  display: flex;
+  padding: 0 1rem;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  font-family: var(--16-regular-font-family);
+  font-size: var(--16-regular-font-size);
+  font-weight: 700;
+}
+.filterContent {
+  display: flex;
+  width: 173px;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--M, 16px);
+  padding: 0px var(--M, 16px) 0 0px;
+}
+.content {
+  display: flex;
+  width: 173px;
+  justify-content: flex-end;
+  text-align: center;
+  align-items: center;
+  font-style: normal;
+  line-height: normal;
+  font-family: var(--12-bold-font-family);
+  font-size: var(--12-bold-font-size);
+  font-weight: 400;
+  color: var(--primary-3, #8798a1);
+  padding: 0px 48px 0px var(--M, 16px);
+}
+.head {
+  padding: 0.25rem 1rem;
+  gap: 70px;
+  color: var(--primary-2, #354752);
+
+  /* 14/bold */
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-weight: 700;
+}
+.top {
+  padding: 0px var(--M, 16px);
+  gap: var(--XXS, 4px);
+  color: var(--primary-2, #354752);
+
+  /* 12/regular */
+  font-family: var(--12-bold-font-family);
+  font-size: var(--12-bold-font-size);
+  font-weight: 400;
+}
+.secondary {
+  padding: 0px var(--M, 16px);
+  gap: var(--XXS, 4px);
+  color: var(--primary-1, #790000);
+}
+.tableContent {
+  display: flex;
+  width: 628px;
+  height: 497px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.tableHeader {
+  width: 100%;
+  padding: 10px var(--M, 16px);
+  border-radius: var(--S, 8px);
+  background: var(--primary-4, #fff);
+  font-family: var(--16-regular-font-family);
+  font-size: var(--16-regular-font-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.tableView {
+  display: flex;
+  width: 628px;
+  height: 444px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: var(--primary-4, #fff);
+}
+th {
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: normal;
+  font-weight: 700;
+}
+td {
+  font-family: var(--14-regular-font-family);
+  font-size: var(--14-regular-font-size);
+  font-style: normal;
+  font-weight: 400;
+}
+.charts {
+  display: flex;
+  width: 297px;
+  height: 497px;
+  padding: var(--M, 16px) 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--M, 16px);
+  flex-shrink: 0;
+  border-radius: var(--S, 8px);
+  background: var(--primary-4, #fff);
+}
+.chartTitle {
+  display: flex;
+  width: 291px;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+  color: var(--primary-2, #354752);
+  text-align: center;
+
+  /* 16/bold */
+  font-family: var(--16-regular-font-family);
+  font-size: var(--16-regular-font-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

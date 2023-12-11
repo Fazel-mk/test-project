@@ -4,6 +4,7 @@ import ImageSlider from "../maincontent/ImageSlider";
 import Best from "../maincontent/Best";
 import Articles from "../maincontent/Articles";
 import Outro from "./Outro";
+import Price from "../maincontent/Price";
 
 import "./Maincontent.css";
 const MainContent = () => {
@@ -14,6 +15,7 @@ const MainContent = () => {
       <div className="container">
         <img className="banner" src="/banner1.svg" alt="" />
       </div>
+      <Price />
       <Articles />
       <div className="container">
         <img className="banner" src="/banner2.svg" alt="" />

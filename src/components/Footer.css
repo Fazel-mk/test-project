@@ -76,7 +76,7 @@
 .customerclub {
   display: flex;
   width: 78vw;
-  align-items: end;
+  align-items: flex-end;
   gap: 40px;
 }
 .title-cc {
