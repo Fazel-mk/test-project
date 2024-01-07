@@ -1,4 +1,7 @@
 import React from "react";
+import { Chart as ChartJS } from "chart.js/auto";
+import { Line } from "react-chartjs-2";
+import jsonData from "../datas/Chart.json";
 
 import "./Price.css";
 const Price = () => {
@@ -85,9 +88,31 @@ const Price = () => {
             آخرین تغییرلت میلگرد ۲۵ ذوب اهن اصفهان
           </div>
           <div className="chartsView">
-            <div className="chart1"></div>
-            <div className="chart2"></div>
-            <div className="chart3"></div>
+            <div className="chart">
+              {jsonData.map((data) => (
+                <div className="chart-line" key={data.id}>
+                  <Line
+                    data={{
+                      labels: jsonData.map((data) => data.id),
+                      datasets: [
+                        {
+                          label: "A",
+                          data: jsonData.map((data) => data.valuex),
+                          backgroundColor: "#790000",
+                          borderColor: "#790000",
+                        },
+                        {
+                          label: "B",
+                          data: jsonData.map((data) => data.valuey),
+                          backgroundColor: "#D7B3B3",
+                          borderColor: "#D7B3B3",
+                        },
+                      ],
+                    }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
