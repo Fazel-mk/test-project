@@ -9,17 +9,15 @@
 .Tables {
   display: flex;
   direction: rtl;
-  align-items: flex-start;
-  padding: 24px;
-  display: flex;
-  width: 100vw;
-  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   gap: var(--M, 16px);
 }
 .filtering {
   display: flex;
   direction: ltr;
-  width: 173px;
+  width: 11rem;
   height: 497px;
   padding: 1rem 0px;
   flex-direction: column;
@@ -42,7 +40,7 @@
 }
 .filterContent {
   display: flex;
-  width: 173px;
+  width: 11rem;
   padding: 0;
   flex-direction: column;
   justify-content: center;
@@ -134,7 +132,6 @@ td {
 }
 .charts {
   display: flex;
-  width: 19rem;
   height: 31rem;
   padding: var(--M, 16px) 0px;
   flex-direction: column;
