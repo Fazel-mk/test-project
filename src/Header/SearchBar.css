@@ -18,7 +18,7 @@
   direction: rtl;
   border: 0.5px solid var(--primary-9);
   border-radius: 0 0.5rem 0.5rem 0;
-  padding-right: 0.5rem;
+  padding: 0 0.5rem;
 }
 .button {
   font-family: var(--14-regular-font-family);
@@ -49,9 +49,15 @@
   padding-left: 0.5rem;
   flex-direction: column;
 }
-@media screen and (max-width: 1200px) {
-}
+
 @media screen and (max-width: 900px) {
+  .search-bar {
+    width: 90vw;
+    margin: auto;
+  }
+  .search-bar input {
+    border-radius: 0.5rem;
+  }
   .button {
     display: none;
   }

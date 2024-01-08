@@ -9,7 +9,6 @@
   background: var(--primary-4, #fff);
   direction: rtl;
   margin: 1rem auto;
-  overflow: auto;
 }
 .titlebox {
   display: flex;

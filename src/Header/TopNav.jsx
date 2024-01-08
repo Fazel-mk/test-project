@@ -1,4 +1,5 @@
 import React from "react";
+import jsonData from "../datas/TopNav.json";
 
 import "./TopNav.css";
 
@@ -19,13 +20,11 @@ const TopNav = () => {
         />
       </div>
       <div className="div-4">
-        <div className="div-5">
-          <div className="text-wrapper-2">ملزومات ساختمانی</div>
-          <div className="div-6">
-            <div className="text-wrapper-3">تماس با ما</div>
+        {jsonData.items.map((data) => (
+          <div key={data.id} className="text-wrapper">
+            {data.name}
           </div>
-          <div className="text-wrapper-4">درباره تاجران افلاک</div>
-        </div>
+        ))}
       </div>
       <div className="frame-wrapper-2">
         <div className="button-wrapper">

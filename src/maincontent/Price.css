@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--M, 16px);
+  padding-bottom: 1rem;
 }
 .filtering {
   display: flex;
@@ -140,7 +141,6 @@ td {
   flex-shrink: 0;
   border-radius: var(--S, 8px);
   background: var(--primary-4, #fff);
-  overflow: auto;
 }
 .chartTitle {
   display: flex;
@@ -157,6 +157,9 @@ td {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.chartsView {
+  overflow: auto;
 }
 .chart-line {
   padding-top: 1rem;
